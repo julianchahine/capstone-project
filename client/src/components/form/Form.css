@@ -1,46 +1,45 @@
 .input {
-    width: 400px;
-    height: 60px;
-    text-align: left;
-    margin: 1.5em;
-    border-radius: 15px;
-    border: none;
-    background: #31546a;
-    color: white;
-    padding-left: 10px;
+  width: 400px;
+  height: 60px;
+  text-align: left;
+  margin: 1.5em;
+  border-radius: 15px;
+  border: none;
+  background: #31546a;
+  color: white;
+  padding-left: 10px;
 }
 
 .input-text {
-    width: 400px;
-    padding-top: 20px;
-    padding-left:10px;
-    height: 60px;
-    text-align: left;
-    height:200px;
-    font-family: Arial;
-    margin-bottom: 1.5em;
-    border-radius: 15px;
-    border: none;
-    background: #31546a;
-    color: white;
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 10px;
+  height: 60px;
+  text-align: left;
+  height: 200px;
+  font-family: Arial;
+  margin-bottom: 1.5em;
+  border-radius: 15px;
+  border: none;
+  background: #31546a;
+  color: white;
 }
 
 .add-button {
-    width: 150px;
-    height: 50px;
-    border-radius: 15px;
-    border: none;
-    transition: .5s;
-    background: #507e9b;
-    color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  transition: 0.5s;
+  background: #507e9b;
+  color: white;
 }
 
 .add-button:hover {
-    background: #31546a;
-    cursor: pointer;
-
+  background: #31546a;
+  cursor: pointer;
 }
 
 ::placeholder {
-    color: white;
+  color: white;
 }

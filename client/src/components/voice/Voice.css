@@ -1,46 +1,46 @@
 h1 {
-    color: white;
-    font-weight: 300;
+  color: white;
+  font-weight: 300;
 }
 
 .status {
-    padding: 1em;
-    background: #3c647c;
-    color: white;
-    border-radius: 25px;
+  padding: 1em;
+  background: #3c647c;
+  color: white;
+  border-radius: 25px;
 }
 
 .controls div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .controls div button {
-    border: none;
-    background: #3c647c;
-    margin-right: 10px;
-    border-radius: 15px;
-    padding: 1em;
-    color: white !important;
-    transition: .5s;
-} 
+  border: none;
+  background: #3c647c;
+  margin-right: 10px;
+  border-radius: 15px;
+  padding: 1em;
+  color: white !important;
+  transition: 0.5s;
+}
 
 .controls div button:hover {
-    background: #274355;
-    cursor: pointer;
+  background: #274355;
+  cursor: pointer;
 }
 
 .controls div button svg path {
-    fill: white;
-    stroke: none;
+  fill: white;
+  stroke: none;
 }
 
 .iconm {
-    color: white;
-    font-size: 50px;
+  color: white;
+  font-size: 50px;
 }
 
 .shareicons {
-    filter: invert(0) !important;
-    width: 250px;
+  filter: invert(0) !important;
+  width: 250px;
 }

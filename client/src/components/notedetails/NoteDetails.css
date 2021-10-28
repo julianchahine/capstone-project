@@ -1,36 +1,36 @@
 .note_details_title {
-    background: ;
-    max-width: 500px;
-    margin: auto;
-    font-weight: bold;
-    color: rgb(163, 163, 163);
-    text-align: left;
-    border-bottom: 1px solid rgb(70 113 139);
-    padding-bottom: 6px;
-    margin-bottom: -1em;
+  background: ;
+  max-width: 500px;
+  margin: auto;
+  font-weight: bold;
+  color: rgb(163, 163, 163);
+  text-align: left;
+  border-bottom: 1px solid rgb(70 113 139);
+  padding-bottom: 6px;
+  margin-bottom: -1em;
 }
 
 .note_details_text {
-    background: #23485c;
-    max-width: 500px;
-    margin: auto;
-    margin-left: 3em;
-    margin-right: 3em;
-    padding: 1em;
-    transition: .5s;
-    height: 350px;
-    text-align: left;
-    border-radius: 15px;
-    color: white;
-    box-shadow: 1px 1px 25px #7fc0e76e;
+  background: #23485c;
+  max-width: 500px;
+  margin: auto;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: 1em;
+  transition: 0.5s;
+  height: 350px;
+  text-align: left;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 1px 1px 25px #7fc0e76e;
 }
 
 .note_details_text:hover {
-    background: rgb(88 128 145);
+  background: rgb(88 128 145);
 }
 
 .headline {
-    margin: 0;
-    color: white;
-    font-weight: bold;
+  margin: 0;
+  color: white;
+  font-weight: bold;
 }

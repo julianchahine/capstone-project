@@ -1,65 +1,64 @@
 #root {
-    padding-top: 3em;
+  padding-top: 3em;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    border-top-left-radius: 21px;
-    border-top-right-radius: 21px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 555px;
-    align-items: center;
-    z-index: 99;
-    box-shadow: 1px 1px 24px #10101060;
-    background-image: url(https://www.webflexx.de/quiz-app/assets/img/badge.png) !important;
-    background: rgb(75 108 128 / 48%);
-    background-size: 60px;
-    background-repeat: no-repeat;
+  position: sticky;
+  top: 0;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 555px;
+  align-items: center;
+  z-index: 99;
+  box-shadow: 1px 1px 24px #10101060;
+  background-image: url(https://www.webflexx.de/quiz-app/assets/img/badge.png) !important;
+  background: rgb(75 108 128 / 48%);
+  background-size: 60px;
+  background-repeat: no-repeat;
 }
 
 .header__container {
-    text-align: center;
-    padding: 1em 0em;
-    display: flex;
-    justify-content: center;
-    width: 85%;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  padding: 1em 0em;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header__title {
-    font-size: 2rem;
-    color: white;
+  font-size: 2rem;
+  color: white;
 }
 
-
 .header__title {
-    width: max-content;
+  width: max-content;
 }
 
 .header__logo img {
-    max-width: 55%;
+  max-width: 55%;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #868686; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #2e5166; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(39, 72, 122)
-  }
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #868686;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e5166;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(39, 72, 122);
+}

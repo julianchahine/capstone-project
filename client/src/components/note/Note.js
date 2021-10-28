@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 import './Note.css'
@@ -9,24 +9,46 @@ import * as Fa from 'react-icons/fa'
 
 function Note({ note, onDeleteNote }) {
   return (
-    <motion.div  exit={{ opacity: 0 }} initial={{opacity: 0 }} animate={{ opacity: 1 }}>
-    <Container>
-      <DeleteButton onClick={() => onDeleteNote(note._id)}>x</DeleteButton>
-      <NoteTitle>{note.text}</NoteTitle>
-      <NoteText>{note.title}</NoteText>
-      <Link to={ `/notes/${note._id}` } className="more-link">More</Link>
-      
-      <br/><br/>
-      <Span></Span><br />
-        <a href="whatsapp://send?text=This is WhatsApp sharing example using link" className="share" data-action="share/whatsapp/share"  
-        target="_blank"><Fa.FaWhatsapp /></a>   
-        <a href="whatsapp://send?text=This is WhatsApp sharing example using link" className="share" data-action="share/whatsapp/share"  
-        target="_blank"><Fa.FaTelegramPlane /></a>
-        <a href="whatsapp://send?text=This is WhatsApp sharing example using link" className="share" data-action="share/whatsapp/share"  
-        target="_blank"><Fa.FaFacebook /></a>
-        
-        
-    </Container>
+    <motion.div
+      exit={{ opacity: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    >
+      <Container>
+        <DeleteButton onClick={() => onDeleteNote(note._id)}>x</DeleteButton>
+        <NoteTitle>{note.text}</NoteTitle>
+        <NoteText>{note.title}</NoteText>
+        <Link to={`/notes/${note._id}`} className="more-link">
+          More
+        </Link>
+
+        <br />
+        <br />
+        <a
+          href="#"
+          className="share"
+          data-action="share/whatsapp/share"
+          target="_blank"
+        >
+          <Fa.FaWhatsapp />
+        </a>
+        <a
+          href="#"
+          className="share"
+          data-action="share/whatsapp/share"
+          target="_blank"
+        >
+          <Fa.FaTelegramPlane />
+        </a>
+        <a
+          href="#"
+          className="share"
+          data-action="share/whatsapp/share"
+          target="_blank"
+        >
+          <Fa.FaFacebook />
+        </a>
+      </Container>
     </motion.div>
   )
 }
@@ -56,12 +78,12 @@ const NoteText = styled.p`
 const Container = styled.div`
   position: relative;
   width: 200px;
-  height: 200px; 
+  height: 200px;
   background: #2d4858;
   margin: 1em;
   box-shadow: 1px 1px 25px #7fc0e76e;
   border-radius: 15px;
-  transition: .5s;
+  transition: 0.5s;
   :hover {
     transform: scale(1.1);
     backgroubd: #42718d;
@@ -80,14 +102,13 @@ const DeleteButton = styled.button`
   padding-bottom: 5px;
   color: white;
   background: #395f76;
-  transition: .5s;
+  transition: 0.5s;
   border: 0;
- 
- :hover {
-  background: #192e3a;
-  cursor: pointer;
- }
-  
-  ` 
+
+  :hover {
+    background: #192e3a;
+    cursor: pointer;
+  }
+`
 
 export default Note
