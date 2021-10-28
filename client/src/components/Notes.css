@@ -1,0 +1,72 @@
+.main {
+    text-align: center;
+}
+
+.main img {
+    filter: invert(1);
+    transition: .5s;
+}
+
+.main img:hover {
+    
+}
+
+.plus-link {
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    display: block;
+    transition: .5s;
+}
+
+.plus-link:hover {
+    color: #335266;
+}
+
+.invert-white {
+    filter: invert(0) !important;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.back-button {
+    max-width: 33px;
+}
+
+.plus {
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.container div {
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+    transition: .5s;
+}
+
+.container div div:hover {
+    background: rgb(88 128 145);
+}
+
+.resp {
+    max-width: 100%;
+    height: auto;
+}
+
+.more-link {
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: .5s;
+}
+
+.more-link:hover {
+    color: red;
+}

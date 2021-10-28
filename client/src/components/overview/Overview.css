@@ -1,0 +1,30 @@
+.main__box {
+    color: white !important;
+    display: block;
+    text-decoration: none;
+}
+
+.main__box a {
+    display: flex;
+}
+
+.desktopview {
+    border: 0;
+    padding: 1em;
+    border-radius: 15px;
+    background: rgb(52 83 96);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    transition: .5s;
+}
+
+.desktopview svg {
+    margin-right: 6px;
+    font-size: 27px;
+}
+
+.desktopview:hover {
+    background: rgb(88 128 145);
+}
