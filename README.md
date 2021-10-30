@@ -2,5 +2,5 @@
 
 To start project:
 
-- Client: `npm run dev:client`
-- Server: `npm run dev:server`
+- Client: `cd client && npm start`
+- Server: `cd server && npm start`
