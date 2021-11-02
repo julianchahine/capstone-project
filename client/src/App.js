@@ -30,11 +30,11 @@ function App() {
             </label>
             <div id="sidebarMenu">
               <ul class="sidebarMenuInner">
-              <li><a href="/">Startpage</a></li>
-                <li><a href="/notes">My Notes</a></li>
-                <li><a href="/voice">My Voice Records</a></li>
-                <li><a href="/video">My Videos</a></li>
-                <li><a href="/pictures">My Pictures</a></li>
+              <li><Link to="/">Startpage</Link></li>
+                <li><Link to="/notes">My Notes</Link></li>
+                <li><Link to="/voice">My Voice Records</Link></li>
+                <li><Link to="/video">My Videos</Link></li>
+                <li><Link to="/pictures">My Pictures</Link></li>
                 <li><a href="https://github.com/julianchahine" target="_blank">My Github Profile</a></li>
               </ul>
             </div>
