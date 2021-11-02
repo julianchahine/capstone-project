@@ -12,10 +12,8 @@
 
 .note_details_text {
   background: #23485c;
-  max-width: 500px;
+  max-width: 90%;
   margin: auto;
-  margin-left: 3em;
-  margin-right: 3em;
   padding: 1em;
   transition: 0.5s;
   height: 350px;

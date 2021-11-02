@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 import './Note.css'
+import share from '../../images/share.png'
 
 import * as Io from 'react-icons/io'
 import * as Fa from 'react-icons/fa'
@@ -24,30 +25,9 @@ function Note({ note, onDeleteNote }) {
 
         <br />
         <br />
-        <a
-          href="#"
-          className="share"
-          data-action="share/whatsapp/share"
-          target="_blank"
-        >
-          <Fa.FaWhatsapp />
-        </a>
-        <a
-          href="#"
-          className="share"
-          data-action="share/whatsapp/share"
-          target="_blank"
-        >
-          <Fa.FaTelegramPlane />
-        </a>
-        <a
-          href="#"
-          className="share"
-          data-action="share/whatsapp/share"
-          target="_blank"
-        >
-          <Fa.FaFacebook />
-        </a>
+        <img src={share} className="shareiconss" />
+         
+       
       </Container>
     </motion.div>
   )

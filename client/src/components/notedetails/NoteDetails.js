@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 
 import './NoteDetails.css'
 import backbutton from '../../images/back.png'
+import share from '../../images/share.png'
 
 function NoteDetails() {
   useEffect(() => {
@@ -41,6 +42,8 @@ function NoteDetails() {
                 <br />
                 {filteredNote.title}
               </div>
+              <br />
+              <img src={share} className="shareiconss" />
             </div>
           ))}
 

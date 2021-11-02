@@ -1,4 +1,15 @@
 .video {
   max-width: 100%;
   max-height: 400px;
+  border-radius: 25px;
+}
+
+.videobutton {
+  border: none;
+  background: #3c647c;
+  margin-right: 10px;
+  border-radius: 15px;
+  padding: 1em;
+  color: white !important;
+  transition: 0.5s;
 }
