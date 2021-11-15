@@ -1,5 +1,7 @@
 ## Share Me
 
+![alt text](https://webflexx.de/shareMedia.jpg)
+
 ### Start the Server
 cd server && npm install && npm start
 
