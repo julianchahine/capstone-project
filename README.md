@@ -1,4 +1,4 @@
 ## Share Me
 
 ### Start the Server
-#### cd server && npm install && npm start
+cd server && npm install && npm start
