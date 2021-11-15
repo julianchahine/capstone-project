@@ -1,7 +1,7 @@
 ## Share Me
 created  by Julian Chahine
 
-![alt text](https://webflexx.de/shareMedia.jpg)
+![alt text](https://webflexx.de/mediaApp.jpg)
 
 ### Start the Server
 cd server && npm install && npm start
