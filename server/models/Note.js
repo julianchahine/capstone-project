@@ -14,8 +14,4 @@ const schema = new mongoose.Schema(
   { versionKey: false }
 )
 
-// Collection: 'cards'
-// Mongoose Model: 'Card' --> MongoDB Collection: 'cards'
-// Mongoose Model: 'User' --> MongoDB Collection: 'users'
-
 module.exports = mongoose.model('Note', schema)
